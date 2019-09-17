@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E7B9A9C1232E8A7900232B35 /* TextToSpeechViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B9A9C0232E8A7900232B35 /* TextToSpeechViewController.swift */; };
+		E7B9A9C3232EA37700232B35 /* headersDynatrace.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B9A9C2232EA37700232B35 /* headersDynatrace.swift */; };
+		E7B9A9C5232EA4B000232B35 /* Mastercard.md in Resources */ = {isa = PBXBuildFile; fileRef = E7B9A9C4232EA4AF00232B35 /* Mastercard.md */; };
+		E7B9A9C7232EA4DD00232B35 /* mastercardAttempt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B9A9C6232EA4DD00232B35 /* mastercardAttempt.swift */; };
+		E7C5E216232E38A800DDAD72 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C5E215232E38A800DDAD72 /* WebViewController.swift */; };
+		E7D48E12232DE0EA002671AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D48E11232DE0EA002671AE /* AppDelegate.swift */; };
+		E7D48E14232DE0EA002671AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D48E13232DE0EA002671AE /* ViewController.swift */; };
+		E7D48E17232DE0EA002671AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7D48E15232DE0EA002671AE /* Main.storyboard */; };
+		E7D48E1A232DE0EA002671AE /* amelia.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E7D48E18232DE0EA002671AE /* amelia.xcdatamodeld */; };
+		E7D48E1C232DE0EB002671AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7D48E1B232DE0EB002671AE /* Assets.xcassets */; };
+		E7D48E1F232DE0EB002671AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7D48E1D232DE0EB002671AE /* LaunchScreen.storyboard */; };
+		E7D48E2A232DE0EC002671AE /* ameliaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D48E29232DE0EC002671AE /* ameliaTests.swift */; };
+		E7D48E35232DE0EC002671AE /* ameliaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D48E34232DE0EC002671AE /* ameliaUITests.swift */; };
+		E7D48E43232DE123002671AE /* URLprotocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D48E42232DE123002671AE /* URLprotocol.swift */; };
+		E7D48E45232DE13F002671AE /* Flight.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D48E44232DE13F002671AE /* Flight.swift */; };
+		E7D48E4B232DF996002671AE /* americanairlineslogo copy.png in Resources */ = {isa = PBXBuildFile; fileRef = E7D48E4A232DF995002671AE /* americanairlineslogo copy.png */; };
+		E7D48E4D232DFC16002671AE /* American-Airlines-First-Mobile-Boarding-Pass.png in Resources */ = {isa = PBXBuildFile; fileRef = E7D48E4C232DFC16002671AE /* American-Airlines-First-Mobile-Boarding-Pass.png */; };
+		E7D48E4F232E1541002671AE /* BOARDINGPASS.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E7D48E4E232E153E002671AE /* BOARDINGPASS.jpg */; };
+		E7D48E51232E21E7002671AE /* charlotte weather.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E7D48E50232E21E6002671AE /* charlotte weather.jpeg */; };
+		E7D48E53232E2309002671AE /* chicago weather.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E7D48E52232E2309002671AE /* chicago weather.jpeg */; };
+		E7D48E55232E2A72002671AE /* mapScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D48E54232E2A72002671AE /* mapScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E7D48E26232DE0EC002671AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7D48E06232DE0EA002671AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7D48E0D232DE0EA002671AE;
+			remoteInfo = amelia;
+		};
+		E7D48E31232DE0EC002671AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7D48E06232DE0EA002671AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7D48E0D232DE0EA002671AE;
+			remoteInfo = amelia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E7B9A9C0232E8A7900232B35 /* TextToSpeechViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextToSpeechViewController.swift; sourceTree = "<group>"; };
+		E7B9A9C2232EA37700232B35 /* headersDynatrace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = headersDynatrace.swift; sourceTree = "<group>"; };
+		E7B9A9C4232EA4AF00232B35 /* Mastercard.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Mastercard.md; sourceTree = "<group>"; };
+		E7B9A9C6232EA4DD00232B35 /* mastercardAttempt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mastercardAttempt.swift; sourceTree = "<group>"; };
+		E7C5E215232E38A800DDAD72 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		E7D48E0E232DE0EA002671AE /* amelia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = amelia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7D48E11232DE0EA002671AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E7D48E13232DE0EA002671AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E7D48E16232DE0EA002671AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E7D48E19232DE0EA002671AE /* amelia.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = amelia.xcdatamodel; sourceTree = "<group>"; };
+		E7D48E1B232DE0EB002671AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7D48E1E232DE0EB002671AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E7D48E20232DE0EB002671AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7D48E25232DE0EC002671AE /* ameliaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ameliaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7D48E29232DE0EC002671AE /* ameliaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ameliaTests.swift; sourceTree = "<group>"; };
+		E7D48E2B232DE0EC002671AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7D48E30232DE0EC002671AE /* ameliaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ameliaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7D48E34232DE0EC002671AE /* ameliaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ameliaUITests.swift; sourceTree = "<group>"; };
+		E7D48E36232DE0EC002671AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7D48E42232DE123002671AE /* URLprotocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLprotocol.swift; sourceTree = "<group>"; };
+		E7D48E44232DE13F002671AE /* Flight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flight.swift; sourceTree = "<group>"; };
+		E7D48E4A232DF995002671AE /* americanairlineslogo copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "americanairlineslogo copy.png"; sourceTree = "<group>"; };
+		E7D48E4C232DFC16002671AE /* American-Airlines-First-Mobile-Boarding-Pass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "American-Airlines-First-Mobile-Boarding-Pass.png"; sourceTree = "<group>"; };
+		E7D48E4E232E153E002671AE /* BOARDINGPASS.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BOARDINGPASS.jpg; sourceTree = "<group>"; };
+		E7D48E50232E21E6002671AE /* charlotte weather.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "charlotte weather.jpeg"; sourceTree = "<group>"; };
+		E7D48E52232E2309002671AE /* chicago weather.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "chicago weather.jpeg"; sourceTree = "<group>"; };
+		E7D48E54232E2A72002671AE /* mapScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapScreen.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7D48E0B232DE0EA002671AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7D48E22232DE0EC002671AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7D48E2D232DE0EC002671AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E7D48E05232DE0EA002671AE = {
+			isa = PBXGroup;
+			children = (
+				E7D48E10232DE0EA002671AE /* amelia */,
+				E7D48E28232DE0EC002671AE /* ameliaTests */,
+				E7D48E33232DE0EC002671AE /* ameliaUITests */,
+				E7D48E0F232DE0EA002671AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7D48E0F232DE0EA002671AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7D48E0E232DE0EA002671AE /* amelia.app */,
+				E7D48E25232DE0EC002671AE /* ameliaTests.xctest */,
+				E7D48E30232DE0EC002671AE /* ameliaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7D48E10232DE0EA002671AE /* amelia */ = {
+			isa = PBXGroup;
+			children = (
+				E7D48E11232DE0EA002671AE /* AppDelegate.swift */,
+				E7D48E13232DE0EA002671AE /* ViewController.swift */,
+				E7C5E215232E38A800DDAD72 /* WebViewController.swift */,
+				E7B9A9C2232EA37700232B35 /* headersDynatrace.swift */,
+				E7B9A9C4232EA4AF00232B35 /* Mastercard.md */,
+				E7B9A9C6232EA4DD00232B35 /* mastercardAttempt.swift */,
+				E7D48E42232DE123002671AE /* URLprotocol.swift */,
+				E7D48E44232DE13F002671AE /* Flight.swift */,
+				E7D48E15232DE0EA002671AE /* Main.storyboard */,
+				E7B9A9C0232E8A7900232B35 /* TextToSpeechViewController.swift */,
+				E7D48E54232E2A72002671AE /* mapScreen.swift */,
+				E7D48E52232E2309002671AE /* chicago weather.jpeg */,
+				E7D48E50232E21E6002671AE /* charlotte weather.jpeg */,
+				E7D48E4E232E153E002671AE /* BOARDINGPASS.jpg */,
+				E7D48E4C232DFC16002671AE /* American-Airlines-First-Mobile-Boarding-Pass.png */,
+				E7D48E4A232DF995002671AE /* americanairlineslogo copy.png */,
+				E7D48E1B232DE0EB002671AE /* Assets.xcassets */,
+				E7D48E1D232DE0EB002671AE /* LaunchScreen.storyboard */,
+				E7D48E20232DE0EB002671AE /* Info.plist */,
+				E7D48E18232DE0EA002671AE /* amelia.xcdatamodeld */,
+			);
+			path = amelia;
+			sourceTree = "<group>";
+		};
+		E7D48E28232DE0EC002671AE /* ameliaTests */ = {
+			isa = PBXGroup;
+			children = (
+				E7D48E29232DE0EC002671AE /* ameliaTests.swift */,
+				E7D48E2B232DE0EC002671AE /* Info.plist */,
+			);
+			path = ameliaTests;
+			sourceTree = "<group>";
+		};
+		E7D48E33232DE0EC002671AE /* ameliaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E7D48E34232DE0EC002671AE /* ameliaUITests.swift */,
+				E7D48E36232DE0EC002671AE /* Info.plist */,
+			);
+			path = ameliaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7D48E0D232DE0EA002671AE /* amelia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7D48E39232DE0EC002671AE /* Build configuration list for PBXNativeTarget "amelia" */;
+			buildPhases = (
+				E7D48E0A232DE0EA002671AE /* Sources */,
+				E7D48E0B232DE0EA002671AE /* Frameworks */,
+				E7D48E0C232DE0EA002671AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = amelia;
+			productName = amelia;
+			productReference = E7D48E0E232DE0EA002671AE /* amelia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E7D48E24232DE0EC002671AE /* ameliaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7D48E3C232DE0EC002671AE /* Build configuration list for PBXNativeTarget "ameliaTests" */;
+			buildPhases = (
+				E7D48E21232DE0EC002671AE /* Sources */,
+				E7D48E22232DE0EC002671AE /* Frameworks */,
+				E7D48E23232DE0EC002671AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7D48E27232DE0EC002671AE /* PBXTargetDependency */,
+			);
+			name = ameliaTests;
+			productName = ameliaTests;
+			productReference = E7D48E25232DE0EC002671AE /* ameliaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E7D48E2F232DE0EC002671AE /* ameliaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7D48E3F232DE0EC002671AE /* Build configuration list for PBXNativeTarget "ameliaUITests" */;
+			buildPhases = (
+				E7D48E2C232DE0EC002671AE /* Sources */,
+				E7D48E2D232DE0EC002671AE /* Frameworks */,
+				E7D48E2E232DE0EC002671AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7D48E32232DE0EC002671AE /* PBXTargetDependency */,
+			);
+			name = ameliaUITests;
+			productName = ameliaUITests;
+			productReference = E7D48E30232DE0EC002671AE /* ameliaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7D48E06232DE0EA002671AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Justin Lindberg";
+				TargetAttributes = {
+					E7D48E0D232DE0EA002671AE = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					E7D48E24232DE0EC002671AE = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = E7D48E0D232DE0EA002671AE;
+					};
+					E7D48E2F232DE0EC002671AE = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = E7D48E0D232DE0EA002671AE;
+					};
+				};
+			};
+			buildConfigurationList = E7D48E09232DE0EA002671AE /* Build configuration list for PBXProject "amelia" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E7D48E05232DE0EA002671AE;
+			productRefGroup = E7D48E0F232DE0EA002671AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7D48E0D232DE0EA002671AE /* amelia */,
+				E7D48E24232DE0EC002671AE /* ameliaTests */,
+				E7D48E2F232DE0EC002671AE /* ameliaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7D48E0C232DE0EA002671AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7D48E1F232DE0EB002671AE /* LaunchScreen.storyboard in Resources */,
+				E7B9A9C5232EA4B000232B35 /* Mastercard.md in Resources */,
+				E7D48E4D232DFC16002671AE /* American-Airlines-First-Mobile-Boarding-Pass.png in Resources */,
+				E7D48E1C232DE0EB002671AE /* Assets.xcassets in Resources */,
+				E7D48E17232DE0EA002671AE /* Main.storyboard in Resources */,
+				E7D48E4F232E1541002671AE /* BOARDINGPASS.jpg in Resources */,
+				E7D48E4B232DF996002671AE /* americanairlineslogo copy.png in Resources */,
+				E7D48E53232E2309002671AE /* chicago weather.jpeg in Resources */,
+				E7D48E51232E21E7002671AE /* charlotte weather.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7D48E23232DE0EC002671AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7D48E2E232DE0EC002671AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7D48E0A232DE0EA002671AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7D48E14232DE0EA002671AE /* ViewController.swift in Sources */,
+				E7D48E43232DE123002671AE /* URLprotocol.swift in Sources */,
+				E7D48E55232E2A72002671AE /* mapScreen.swift in Sources */,
+				E7B9A9C7232EA4DD00232B35 /* mastercardAttempt.swift in Sources */,
+				E7B9A9C3232EA37700232B35 /* headersDynatrace.swift in Sources */,
+				E7D48E12232DE0EA002671AE /* AppDelegate.swift in Sources */,
+				E7B9A9C1232E8A7900232B35 /* TextToSpeechViewController.swift in Sources */,
+				E7D48E45232DE13F002671AE /* Flight.swift in Sources */,
+				E7D48E1A232DE0EA002671AE /* amelia.xcdatamodeld in Sources */,
+				E7C5E216232E38A800DDAD72 /* WebViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7D48E21232DE0EC002671AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7D48E2A232DE0EC002671AE /* ameliaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7D48E2C232DE0EC002671AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7D48E35232DE0EC002671AE /* ameliaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E7D48E27232DE0EC002671AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7D48E0D232DE0EA002671AE /* amelia */;
+			targetProxy = E7D48E26232DE0EC002671AE /* PBXContainerItemProxy */;
+		};
+		E7D48E32232DE0EC002671AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7D48E0D232DE0EA002671AE /* amelia */;
+			targetProxy = E7D48E31232DE0EC002671AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E7D48E15232DE0EA002671AE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7D48E16232DE0EA002671AE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E7D48E1D232DE0EB002671AE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7D48E1E232DE0EB002671AE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E7D48E37232DE0EC002671AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E7D48E38232DE0EC002671AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7D48E3A232DE0EC002671AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VBDRCY6L36;
+				INFOPLIST_FILE = amelia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = Lituation.amelia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E7D48E3B232DE0EC002671AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VBDRCY6L36;
+				INFOPLIST_FILE = amelia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = Lituation.amelia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E7D48E3D232DE0EC002671AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VBDRCY6L36;
+				INFOPLIST_FILE = ameliaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Lituation.ameliaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/amelia.app/amelia";
+			};
+			name = Debug;
+		};
+		E7D48E3E232DE0EC002671AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VBDRCY6L36;
+				INFOPLIST_FILE = ameliaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Lituation.ameliaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/amelia.app/amelia";
+			};
+			name = Release;
+		};
+		E7D48E40232DE0EC002671AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VBDRCY6L36;
+				INFOPLIST_FILE = ameliaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Lituation.ameliaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = amelia;
+			};
+			name = Debug;
+		};
+		E7D48E41232DE0EC002671AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VBDRCY6L36;
+				INFOPLIST_FILE = ameliaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Lituation.ameliaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = amelia;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7D48E09232DE0EA002671AE /* Build configuration list for PBXProject "amelia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7D48E37232DE0EC002671AE /* Debug */,
+				E7D48E38232DE0EC002671AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7D48E39232DE0EC002671AE /* Build configuration list for PBXNativeTarget "amelia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7D48E3A232DE0EC002671AE /* Debug */,
+				E7D48E3B232DE0EC002671AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7D48E3C232DE0EC002671AE /* Build configuration list for PBXNativeTarget "ameliaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7D48E3D232DE0EC002671AE /* Debug */,
+				E7D48E3E232DE0EC002671AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7D48E3F232DE0EC002671AE /* Build configuration list for PBXNativeTarget "ameliaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7D48E40232DE0EC002671AE /* Debug */,
+				E7D48E41232DE0EC002671AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E7D48E18232DE0EA002671AE /* amelia.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E7D48E19232DE0EA002671AE /* amelia.xcdatamodel */,
+			);
+			currentVersion = E7D48E19232DE0EA002671AE /* amelia.xcdatamodel */;
+			path = amelia.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E7D48E06232DE0EA002671AE /* Project object */;
+}
